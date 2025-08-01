@@ -82,14 +82,14 @@ A Node.js REST API for user registration with MongoDB database and JWT authentic
    Edit `.env` file and update:
    ```env
    # MongoDB Configuration
-   MONGODB_URI=mongodb://localhost:27017/user-registration-api
+   MONGODB_URI=URL
    
    # JWT Secret
-   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+   JWT_SECRET=.........
    
    # Server Configuration
-   PORT=3000
-   NODE_ENV=development
+   PORT=
+   NODE_ENV=
    ```
 
 ## Running the Application
